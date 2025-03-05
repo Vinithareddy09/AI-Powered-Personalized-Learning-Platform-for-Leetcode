@@ -1,0 +1,68 @@
+Document on Coding
+Title: Introduction to Coding
+
+Introduction: Coding, also known as programming, is the process of creating instructions for a computer to perform specific tasks. Coding is essential in today's digital world as it forms the foundation for software development, web development, data analysis, artificial intelligence, and much more.
+
+Basic Concepts:
+
+Variables: Variables are used to store data that can be used and manipulated throughout a program. In Python, you can create a variable by assigning a value to it using the = operator.
+
+python
+x = 10
+y = "Hello, World!"
+Data Types: Data types specify the type of data that a variable can hold. Common data types include integers, floats, strings, and booleans.
+
+python
+age = 25          # Integer
+height = 5.9      # Float
+name = "Alice"    # String
+is_student = True # Boolean
+Control Structures: Control structures allow you to control the flow of execution in a program. Common control structures include if statements, loops, and functions.
+
+python
+# If statement
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+
+# For loop
+for i in range(5):
+    print(i)
+
+# While loop
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+
+# Function
+def greet(name):
+    return f"Hello, {name}!"
+Functions: Functions are reusable blocks of code that perform a specific task. Functions help in organizing code and making it more modular.
+
+python
+def add(a, b):
+    return a + b
+
+result = add(5, 3)
+print(result)  # Output: 8
+Lists: Lists are used to store multiple items in a single variable. Lists are ordered, changeable, and allow duplicate values.
+
+python
+fruits = ["apple", "banana", "cherry"]
+print(fruits[0])  # Output: apple
+fruits.append("date")
+print(fruits)  # Output: ['apple', 'banana', 'cherry', 'date']
+Dictionaries: Dictionaries are used to store data in key-value pairs. Dictionaries are unordered, changeable, and indexed.
+
+python
+person = {
+    "name": "Alice",
+    "age": 25,
+    "city": "New York"
+}
+print(person["name"])  # Output: Alice
+person["age"] = 26
+print(person)  # Output: {'name': 'Alice', 'age': 26, 'city': 'New York'}
+Conclusion: Coding is a valuable skill that opens up numerous opportunities in the tech industry. By understanding the basic concepts and practicing regularly, anyone can become proficient in coding and contribute to the ever-evolving digital landscape.
